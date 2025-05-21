@@ -1,0 +1,50 @@
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        font-size: 16px;
+    }
+
+    h1, h2 {
+        font-family: Georgia, serif;
+        font-size: 26px;
+    }
+
+    p {
+        font-size: 16px;
+    }
+
+    nav ul {
+        list-style: none;
+        padding: 0;
+    }
+
+    nav ul li {
+        display: inline;
+        margin-right: 10px;
+    }
+
+    /* Step 2 - Style the form inputs */
+    input[type="text"],
+    input[type="email"],
+    textarea {
+        width: 300px;
+        margin-bottom: 15px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        padding: 8px;
+    }
+
+    input[type="submit"] {
+        padding: 8px 16px;
+        border: none;
+        border-radius: 5px;
+        background-color: #333;
+        color: white;
+        cursor: pointer;
+    }
+
+    input[type="submit"]:hover {
+        background-color: #555;
+    }
+</style>
+
