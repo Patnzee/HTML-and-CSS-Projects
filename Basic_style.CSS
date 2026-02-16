@@ -1,0 +1,39 @@
+body {
+    background-color: #242b59;
+}
+
+h1 {
+    color: rgba(0, 141, 165, 1);
+    margin-left: 100px;
+    text-shadow: 1px 5px 4px rgba(0, 0, 0, 0.6);
+}
+
+.container {
+    width: 450px;
+    height: 450px;
+    background-color: #faebd7;
+    border: 2px solid black;
+    border-radius: 5%;
+}
+
+/* SELECT ALL SQUARES IN THE ARRAY */
+.container .squares:nth-child(1),
+.container .squares:nth-child(2),
+.container .squares:nth-child(3),
+.container .squares:nth-child(4) {
+    background-image: url('../images/icons/smileyface2.png'); /* Make sure this path is correct */
+    float: left;
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    margin: 20px;
+    border-radius: 25%;
+    cursor: pointer;
+}
+
+/* SELECT ALL SQUARES PARAGRAPHS IN THE ARRAY */
+.container .squares p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+   
